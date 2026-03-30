@@ -33,7 +33,7 @@ async def on_ready():
         print(f"❌ Error syncing commands: {e}")
 
 def run_bot():
-    token = os.getenv("MTQ4ODIyNDk0MTgyNzQyNDM4Nw.GM6Zs3.0dsYtHqi9qpAj4dB9cYBVKxJ36a7ihJs61Kii0")
+    token = os.getenv("DISCORD_TOKEN")
     if not token:
         raise ValueError("DISCORD_TOKEN is not set in environment variables.")
 
